@@ -6,6 +6,52 @@ remote: Compressing objects: 100% (8/8), done.
 remote: Total 12 (delta 1), reused 6 (delta 1), pack-reused 0
 Dépaquetage des objets: 100% (12/12), fait.
 wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal$ 
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-social$ git init
+Dépôt Git existant réinitialisé dans /home/wilder/Documents/exerciceGit/gitTerminal/sharezza-social/.git/
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-social$ git status
+Sur la branche master
+Votre branche est à jour avec 'origin/master'.
+
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git checkout -- <fichier>..." pour annuler les modifications dans la copie de travail)
+
+	modifié :         index.html
+
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-social$ git add index.html
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-social$ git status
+Sur la branche master
+Votre branche est à jour avec 'origin/master'.
+
+Modifications qui seront validées :
+  (utilisez "git reset HEAD <fichier>..." pour désindexer)
+
+	modifié :         index.html
+
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-social$ git commit -m "modif done"
+[master 3a52f92] modif done
+ 1 file changed, 5 insertions(+)
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-social$ git diff
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-social$ git status
+Sur la branche master
+Votre branche est en avance sur 'origin/master' de 1 commit.
+  (utilisez "git push" pour publier vos commits locaux)
+
+rien à valider, la copie de travail est propre
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-social$ git push
+Username for 'https://github.com': lulup52
+Password for 'https://lulup52@github.com': 
+Décompte des objets: 3, fait.
+Delta compression using up to 4 threads.
+Compression des objets: 100% (3/3), fait.
+Écriture des objets: 100% (3/3), 341 bytes | 341.00 KiB/s, fait.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/lulup52/sharezza-social
+   3fd51bc..3a52f92  master -> master
+
 
 
 
