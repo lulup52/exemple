@@ -1,0 +1,11 @@
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-oops$ git log --oneline
+12b38ea (HEAD -> master) the 1st paragtraph is born
+51ed267 title updated
+73bcff9 index.html created
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-oops$ git checkout 51ed267 
+La position précédente de HEAD était sur 12b38ea the 1st paragtraph is born
+HEAD est maintenant sur 51ed267 title updated
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-oops$ git log --oneline
+51ed267 (HEAD) title updated
+73bcff9 index.html created
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-oops$ 
