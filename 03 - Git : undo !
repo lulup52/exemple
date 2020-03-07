@@ -1,10 +1,26 @@
-wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-oops$ git log --oneline
-12b38ea (HEAD -> master) the 1st paragtraph is born
+d446a69 (HEAD) paragraph is born
 51ed267 title updated
 73bcff9 index.html created
-wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-oops$ git checkout 51ed267 
-La position précédente de HEAD était sur 12b38ea the 1st paragtraph is born
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-oops$ git hist
+git : 'hist' n'est pas une commande git. Voir 'git --help'.
+
+La commande la plus ressemblante est
+	bisect
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-oops$ git checkout 51ed267
+Attention : vous abandonnez 1 commit, non connecté à
+une branche :
+
+  d446a69 paragraph is born
+
+Si vous souhaitez le garder en créant une nouvelle branche, c'est le bon moment
+pour le faire avec :
+
+git branch <nouvelle-branche> d446a69
+
 HEAD est maintenant sur 51ed267 title updated
+wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-oops$ git status
+HEAD détachée sur 51ed267
+rien à valider, la copie de travail est propre
 wilder@wilder-ThinkPad-T440p:~/Documents/exerciceGit/gitTerminal/sharezza-oops$ git log --oneline
 51ed267 (HEAD) title updated
 73bcff9 index.html created
