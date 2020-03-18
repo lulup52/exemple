@@ -1,0 +1,8 @@
+argent > 0
+prix > 0
+bonbon = 0
+
+Tant que argent < prix
+        bonbon ← bonbon + 1
+    Fin Tant que
+    retourner bonbon
