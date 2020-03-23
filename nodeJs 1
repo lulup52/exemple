@@ -1,0 +1,14 @@
+process.stdin.resume()
+process.stdin.setEncoding('utf8')
+
+console.log('How old are ? ')
+process.stdin.on('data', (age) => {
+
+    if (age < 99 && age > 0) {
+        console.log('you were born in ' + (2020 - age))
+        process.exit()
+    } else { 
+        console.log('you fail')
+        process.exit()
+    }
+})
