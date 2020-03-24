@@ -1,0 +1,25 @@
+----partie console----
+
+
+wilder@wilder-ThinkPad-T440p:~/Documents/DossierNodeJs$ node cowsay.js
+ ___________
+< hello boy >
+ -----------
+        \   ^__^
+         \  (oO)\_______
+            (__)\       )\/\
+             U  ||----w |
+                ||     ||
+
+
+
+
+----partie java----
+
+var cowsay = require("cowsay");
+
+console.log(cowsay.say({
+	text : "hello boy",
+	e : "oO",
+	T : "U "
+}));
