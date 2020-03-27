@@ -1,0 +1,35 @@
+wilder@wilder-ThinkPad-T440p:~/Documents/JavaScript/mapAndFilters/array-map-filter$ npm test
+
+> quete-map-filter@1.0.0 test /home/wilder/Documents/JavaScript/mapAndFilters/array-map-filter
+> mocha
+
+[ 'Cat contains 3 characters',
+  'Lion contains 4 characters',
+  'Tiger contains 5 characters',
+  'Jaguar contains 6 characters',
+  'Leopard contains 7 characters' ]
+
+
+  filter - exercice 1
+    ✓ getPositiveNumbers
+
+  filter - exercice 2
+    ✓ keepStarks
+
+  filter - exercice 3
+    ✓ filterOnPrice (price <= 500)
+    ✓ filterOnPrice (price <= 649)
+
+  map - exercice 1
+    ✓ getStringsLength
+
+  map - exercice 2
+    ✓ getFoodCategories
+
+  map - exercice 3
+    ✓ getMoviesFreshness
+
+
+  7 passing (7ms)
+wilder@wilder-ThinkPad-T440p:~/Documents/JavaScript/mapAndFilters/array-map-filter$ 
+
