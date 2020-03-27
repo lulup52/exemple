@@ -1,11 +1,8 @@
-argent <- 0
-prix <- 0
-bonbon <- 0
-
 début de achat(argent, prix)
-   Tant que argent >= prix
-        bonbon ← bonbon + 1
-        argent ← argen - prix
-    retourner bonbon
-Fin de achat
+   bonbon <- 0
+      Tant que argent >= prix
+           bonbon ← bonbon + 1
+           argent ← argen - prix
+      retourner bonbon
+ Fin de achat
 
