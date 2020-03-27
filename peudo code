@@ -6,6 +6,6 @@ début de achat(argent, prix)
    Tant que argent >= prix
         bonbon ← bonbon + 1
         argent ← argen - prix
-    Fin de achat
+    retourner bonbon
+Fin de achat
 
-retourner bonbon
